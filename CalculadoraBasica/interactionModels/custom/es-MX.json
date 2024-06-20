@@ -1,0 +1,142 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "numuno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numdos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "sumarintent",
+          "samples": [
+            "realiza la suma de {numuno} mas {numdos}",
+            "la suma de {numuno} mas {numdos} es",
+            "cuanto es {numuno} mas {numdos}",
+            "suma {numuno} mas {numdos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numTres",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numCuatro",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "la resta de {numTres} menos {numCuatro} es",
+            "menos {numTres} mas {numCuatro}",
+            "cuanto es {numTres} menos {numCuatro}",
+            "realiza la resta de {numTres} menos {numCuatro}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numSeis",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numCinco",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivicionIntent",
+          "samples": [
+            "divide {numCinco} entre {numSeis}",
+            "realiza la realiza la divicion de {numCinco} entre {numSeis}",
+            "cuanto es {numCinco} entre {numSeis}",
+            "la divicion de {numCinco} entre {numSeis} es"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numSiete",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numOcho",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicacionIntent",
+          "samples": [
+            "realiza al multiplicacion de {numSiete} por {numOcho}",
+            "la multiplicacion de {numSiete} por {numOcho} es",
+            "cuanto es {numSiete} por {numOcho}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numNueve",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RaizCuadradaIntent",
+          "samples": [
+            "calcula la raíz cuadrada de {numNueve}",
+            "raiz cuadra de {numNueve}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numBase",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numExpo",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "ExponenteIntent",
+          "samples": [
+            "{numBase} a la potencia de {numExpo}",
+            "cuanto es {numBase} elevado a la {numExpo}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora james"
+    }
+  }
+}
